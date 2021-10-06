@@ -57,11 +57,13 @@ a{
     color:white;
 }
 
+/* --------------------------------------------------------------------------------------------------------------------- */
+
 main{
     position: relative;
-    margin:4%;
+    margin:3%;
     padding: 0.5%;
-    height: 200vh;
+    height: 375vh;
     width: 90vw;
     display: flex;
     flex-direction: column;
@@ -71,7 +73,7 @@ main{
 
 #a-bout{
     position: relative;
-    height: 60%;
+    height: 32%;
     width: 90%;
     margin: 5%;
     color:white;
@@ -115,13 +117,14 @@ main{
     border:solid white;
 }
 
+/* --------------------------------------------------------------------------------------------------------------------- */
+
 #project{
     position: relative;
-    height: 80%;
+    height: 32%;
     width: 90%;
     margin: 5%;
     color:white;
-    border:solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,6 +157,7 @@ main{
     display: flex;
     justify-content: space-around;
 }
+
 .vacations{
     height: 60%;
     width: 40%;
@@ -162,6 +166,62 @@ main{
 }
 
 .hub{
+    height:60%;
+    width: 40%;
+    margin-top: 5%;
+    border: solid red;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+#contact{
+    position: relative;
+    height: 32%;
+    width: 90%;
+    margin: 5%;
+    color:white;
+    border:solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-box{
+    position: relative;
+    height: 60%;
+    width: 60%;
+    background-color: rgb(34, 34, 34);
+    color:white;
+    border:solid rgb(22, 22, 22);
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.c-container{
+    position: relative;
+    height: 100%;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.i-e-box{
+    position: relative;
+    height: 80%;
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.indeed{
+    height: 60%;
+    width: 40%;
+    margin-top: 5%;
+    border: solid blue;
+}
+
+.email{
     height:60%;
     width: 40%;
     margin-top: 5%;
