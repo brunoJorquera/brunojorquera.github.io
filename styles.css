@@ -75,7 +75,6 @@ main{
     width: 90%;
     margin: 5%;
     color:white;
-    /* border:solid white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,16 +90,27 @@ main{
     border-radius: 3%;
     display: flex;
     justify-content: center;
+}
+
+.a-title{
+    height: 90%;
+    width: 90%;
+    position: relative;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about{
+    height: 10%;
     text-decoration: underline;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .a-summary{
-    height: 80%;
+    height: 90%;
+    width: 80%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border:solid white;
 }
