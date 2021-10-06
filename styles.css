@@ -145,7 +145,7 @@ main{
 
 .proj-git{
     position: relative;
-    height: 100%;
+    height: 70%;
     text-decoration: underline;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -159,17 +159,36 @@ main{
 }
 
 .vacations{
-    height: 60%;
-    width: 40%;
+    height: 90%;
+    width: 70%;
     margin-top: 5%;
-    border: solid blue;
+    border-radius: 3%;
+    background-image:url("README-img.png");
+    background-size: cover;
 }
 
 .hub{
-    height:60%;
-    width: 40%;
-    margin-top: 5%;
-    border: solid red;
+    height:46%;
+    width: 19%;
+    margin-top: 12%;
+    border: solid white;
+    border-radius: 50%;
+    background: url("download.png") no-repeat center center;
+}
+
+.p-bottom{
+    height: 80%;
+    margin: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.c{
+    margin-left: 27%;
+}
+
+.v{
+    margin-left: 17%;
 }
 
 /* --------------------------------------------------------------------------------------------------------------------- */
