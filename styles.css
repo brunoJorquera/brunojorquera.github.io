@@ -1,3 +1,8 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     position: relative;
     margin: 0;
@@ -5,7 +10,7 @@ body{
     width: 100vw;
     background-image: url('inside.jpg');
     background-size: cover;
-    background-repeat:no-repeat;
+    background-repeat:repeat;
 }
 
 header{
@@ -24,6 +29,7 @@ header{
     align-items: center;
     justify-content: center;
     margin:1%;
+    margin-right:15%;
     padding:1%;
     height: 5%;
     width: 1%;
@@ -34,20 +40,45 @@ header{
 
 .title{
     display: flex;
-    margin-right:35%;
     text-decoration: underline;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav{
+    margin: 1%;
+    width: 20%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color:white;
 }
 
 main{
     position: relative;
     margin:4%;
     padding: 0.5%;
-    height: 100vh;
+    height: 200vh;
     width: 90vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     border: solid white;
+}
+
+#a-bout{
+    position: relative;
+    height: 60%;
+    width: 90%;
+    margin: 5%;
+    color:white;
+    /* border:solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .a-box{
@@ -72,4 +103,57 @@ main{
     height: 80%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border:solid white;
+}
+
+#project{
+    position: relative;
+    height: 80%;
+    width: 90%;
+    margin: 5%;
+    color:white;
+    border:solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-box{
+    position: relative;
+    height: 60%;
+    width: 60%;
+    background-color: rgb(34, 34, 34);
+    color:white;
+    border:solid rgb(22, 22, 22);
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.proj-git{
+    position: relative;
+    height: 100%;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p-g-container{
+    position: relative;
+    height: 80%;
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.vacations{
+    height: 60%;
+    width: 40%;
+    margin-top: 5%;
+    border: solid blue;
+}
+
+.hub{
+    height:60%;
+    width: 40%;
+    margin-top: 5%;
+    border: solid red;
 }
