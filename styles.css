@@ -214,7 +214,6 @@ main{
     width: 90%;
     margin: 5%;
     color:white;
-    border:solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -248,16 +247,22 @@ main{
     justify-content: space-around;
 }
 
-.indeed{
-    height: 60%;
-    width: 40%;
+.linked{
+    height: 48%;
+    width: 28%;
     margin-top: 5%;
-    border: solid blue;
+    background:url("linked.png") no-repeat center;
+    border: solid white;
+    border-radius: 9%;
+    background-size: cover;
 }
 
-.email{
-    height:60%;
-    width: 40%;
+.git{
+    height:48%;
+    width: 28%;
     margin-top: 5%;
-    border: solid red;
+    background:url("download.png") no-repeat center;
+    border:solid white;
+    border-radius: 9%;
+    background-size: cover;
 }
