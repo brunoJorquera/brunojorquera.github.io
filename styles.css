@@ -67,8 +67,6 @@ main{
     width: 90vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    border: solid white;
 }
 
 #a-bout{
@@ -80,6 +78,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid white;
 }
 
 .a-box{
@@ -128,6 +127,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid white;
 }
 
 .p-box{
@@ -217,6 +217,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid white;
 }
 
 .c-box{
