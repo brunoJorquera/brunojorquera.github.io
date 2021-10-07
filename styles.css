@@ -162,9 +162,9 @@ main{
 }
 
 .s-title{
+    position: relative;
     height: 90%;
     width: 90%;
-    position: relative;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -178,9 +178,106 @@ main{
 }
 
 .s-summary{
+    position: relative;
     height: 90%;
     width: 100%;
-    border:solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.s-top{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.html-container{
+    position: relative;
+    height: 70%;
+    width: 10%;
+}
+
+.html{
+    height: 80%;
+    width: 100%;
+    background: url("./images/html5.png") no-repeat center;
+    background-size: cover;
+}
+
+.css-container{
+    position: relative;
+    height: 70%;
+    width: 10%;
+}
+
+.css{
+    height: 80%;
+    width: 100%;
+    background: url("./images/css3.png") no-repeat center;
+    background-size: cover;
+}
+
+.js-container{
+    position: relative;
+    height: 73%;
+    width: 13%;
+}
+
+.js{
+    height: 80%;
+    width: 100%;
+    background: url("./images/js.png") no-repeat center;
+    background-size: cover;
+}
+
+.s-bottom{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.sql-container{
+    position: relative;
+    height: 70%;
+    width: 10%;
+}
+
+.sql{
+    height: 80%;
+    width: 100%;
+    background: url("./images/postgresql.png") no-repeat center;
+    background-size: cover;
+}
+
+.ghub-container{
+    position: relative;
+    height: 70%;
+    width: 10%;
+}
+
+.ghub{
+    height: 80%;
+    width: 100%;
+    background: url("./images/download.png") no-repeat center;
+    background-size: cover;
+}
+
+.git1-container{
+    position: relative;
+    height: 73%;
+    width: 13%;
+}
+
+.git1{
+    height: 80%;
+    width: 100%;
+    background: url("./images/git.png") no-repeat center;
+    background-size: cover;
 }
 
 /* --------------------------------------------------------------------------------------------------------------------- */
