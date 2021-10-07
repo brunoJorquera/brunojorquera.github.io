@@ -151,7 +151,7 @@ main{
 
 .s-box{
     position: relative;
-    height: 60%;
+    height: 90%;
     width: 60%;
     background-color: rgb(34, 34, 34);
     color:white;
@@ -183,11 +183,12 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
+    border: solid white;
 }
 
 .s-top{
     position: relative;
-    height: 50%;
+    height: 40%;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -234,7 +235,7 @@ main{
 }
 
 .s-bottom{
-    height: 50%;
+    height: 40%;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -278,6 +279,12 @@ main{
     width: 100%;
     background: url("./images/git.png") no-repeat center;
     background-size: cover;
+}
+
+.s-plus{
+    height: 70%;
+    width: 100%;
+    border: solid green;
 }
 
 /* --------------------------------------------------------------------------------------------------------------------- */
