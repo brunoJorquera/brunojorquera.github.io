@@ -81,7 +81,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid white;
+    /* border: solid white; */
 }
 
 .a-box{
@@ -149,7 +149,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid white;
+    /* border: solid white; */
 }
 
 .s-box{
@@ -321,7 +321,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid white;
+    /* border: solid white; */
 }
 
 .p-box{
@@ -414,7 +414,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid white;
+    /* border: solid white; */
 }
 
 .c-box{
