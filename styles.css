@@ -78,6 +78,7 @@ main{
     margin: 5%;
     color:white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border: solid white;
@@ -135,6 +136,7 @@ main{
     font-size: large;
 }
 
+
 /* --------------------------------------------------------------------------------------------------------------------- */
 
 #skills{
@@ -144,6 +146,7 @@ main{
     margin: 5%;
     color:white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border: solid white;
@@ -183,7 +186,6 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: solid white;
 }
 
 .s-top{
@@ -284,7 +286,27 @@ main{
 .s-plus{
     height: 70%;
     width: 100%;
-    border: solid green;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    font-weight: 900;
+    font-size: large;
+}
+
+.l-plus{
+    height: 60%;
+    width: 25%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.r-plus{
+    height: 60%;
+    width: 25%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* --------------------------------------------------------------------------------------------------------------------- */
@@ -296,6 +318,7 @@ main{
     margin: 5%;
     color:white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border: solid white;
@@ -360,7 +383,7 @@ main{
 }
 
 .p-bottom{
-    height: 80%;
+    height: 10%;
     margin: 5%;
     display: flex;
     justify-content: space-evenly;
@@ -388,6 +411,7 @@ main{
     margin: 5%;
     color:white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border: solid white;
@@ -421,22 +445,52 @@ main{
     justify-content: space-around;
 }
 
+.lin{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .linked{
     height: 48%;
-    width: 28%;
-    margin-top: 5%;
+    width: 60%;
+    margin-left: 18%;
     background:url("./images/linked.png") no-repeat center;
     border: solid white;
     border-radius: 9%;
     background-size: cover;
 }
 
+.gi{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .git{
     height:48%;
-    width: 28%;
-    margin-top: 5%;
+    width: 60%;
+    margin-left: 18%;
     background:url("./images/download.png") no-repeat center;
     border:solid white;
     border-radius: 9%;
     background-size: cover;
+}
+
+.up{
+    height: 2%;
+    width: 4%;
+    margin: 1%;
+    border: solid white;
+    border-radius: 10%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
